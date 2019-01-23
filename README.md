@@ -11,7 +11,7 @@ https://wildanpurnomo.herokuapp.com/
 <h1>Can I run locally on my laptop?</h1>
 <ol>1. Install Node js in your machine.</ol>
 <ol>2. Clone/download this project.</ol>
-<ol>3. Go to directory containing downloaded project.</ol>
+<ol>3. Go to directory of the downloaded project.</ol>
 <ol>4. Open terminal, enter command "npm install".</ol>
 <ol>4. Open browser, go to localhost:3000.</ol>
 
