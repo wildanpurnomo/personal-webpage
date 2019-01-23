@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const PORT = proccess.env.PORT || 3000;
 
 app.set('view engine', 'ejs');
 app.use('/public', express.static("public"));
@@ -20,6 +21,6 @@ app.get('/projects', function(req, res){
     res.render('projects');
 });
 
-app.listen(3000, function(){
+app.listen(PORT, function(){
     console.log("Server started");
 });
