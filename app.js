@@ -20,4 +20,6 @@ app.get('/projects', function(req, res){
     res.render('projects');
 });
 
-app.listen(3000);
+app.listen(3000, function(){
+    console.log("Server started");
+});
