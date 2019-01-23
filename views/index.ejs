@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About Me</title>
+    <!-- body css -->
+    <link rel="stylesheet" href="./public/assets/style.css" type="text/css">
+
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/hk-grotesk" type="text/css" />
+    <style>
+        .contentTextContainer {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+
+        #contentTitle {
+            margin-right: 30px;
+        }
+
+        #contentText {
+            font-family: HankenGroteskRegular;
+            font-weight: normal;
+            font-size: 17pt;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- include header template -->
+        <% include partials/header.ejs %>
+        <br>
+
+        <div class="layout">
+            <div class="row tes">
+                <!-- include nav template -->
+                <% include partials/nav.ejs %>
+
+                <div class="col s12 m8 l9 content">
+                    <div>
+                        <h1 class="right-align" id="contentTitle">WHO AM I?</h1>
+                    </div>
+                    <hr>
+                    <br><br>
+                    <div class="contentTextContainer">
+                        <span id="contentText">I'm a student at Information Engineering - Universitas Gadjah Mada. I
+                            was born at Jakarta, Indonesia. I'm quite a tryharder, in everything. </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

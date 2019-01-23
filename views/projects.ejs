@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About Me</title>
+
+    <!-- body css -->
+    <link rel="stylesheet" href="./public/assets/style.css" type="text/css">
+    <!-- content css -->
+    <link rel="stylesheet" href="./public/assets/content.css" type="text/css">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/hk-grotesk" type="text/css" />
+
+</head>
+
+<body>
+    <div class="container">
+        <!-- include header template -->
+        <% include partials/header.ejs %>
+
+        <br>
+
+        <div class="layout">
+            <div class="row tes">
+                <!-- include navigation template -->
+                <% include partials/nav.ejs %>
+                <div class="col s12 m8 l9 content">
+                    <div id="contentTitle">
+                        <h1 class="right-align">WHAT HAVE I BUILT?</h1>
+                        <h5 class="right-align"><a href="http://github.com/wildanpurnomo" style="color: black" ;>checkout
+                                my
+                                repo here</a></h5>
+                    </div>
+                    <hr>
+                    <div class="contentTextContainer">
+                        <h4>Web Calculator</h4>
+                        <p>Casual basic calculator built for web using HTML, CSS and JavaScript.</p>
+
+                        <h4>myphpapp</h4>
+                        <p>PHP application that contains todolist-app and online quiz. Both integrated with MySQL
+                            database.</p>
+
+                        <h4>modsim</h4>
+                        <p>
+                            Plotter application using C# WPF and DynamicDataDisplay library. Point was that we have a
+                            formula/equation for real life problem then this app will create the model for the
+                            equation. This was a final group project for certain subject. List of group members is
+                            included in repo.
+                        </p>
+
+                        <h4>E-Chan LINE Chatbot</h4>
+                        <p>
+                            LINE chatbot for public surveys built using PHP with Slim microframework and PgSQL
+                            database. This one was made for hackathon competition. List of team members is included in
+                            repo.
+                        </p>
+
+                        <h4>Others</h4>
+                        <p>
+                            At the time this writing was made, I currently joined web development team for event called
+                            CHRONICS held by Industrial Engineering UGM.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+</body>
+
+</html>

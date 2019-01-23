@@ -1,0 +1,25 @@
+.contentTextContainer {
+    font-family: HankenGroteskRegular;
+    font-style: normal;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#contentTitle {
+    margin-right: 30px;
+}
+
+#contentText {
+    font-family: HankenGroteskRegular;
+    font-weight: normal;
+    font-size: 20pt;
+
+}
+
+.contentTextContainer p {
+    font-size: 17pt;
+}
+
+.contentTextContainer h4 {
+    font-weight: bold;
+}
