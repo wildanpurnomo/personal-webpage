@@ -3,8 +3,7 @@ Personal webpage using Node Js although its a static website.
 
 <h1>Why Node js?</h1>
 Because I was learning Node js recently (by the time this was made) and I want to implement it. Simply as that.
-Sorry, because I'm stupid.
-But, I'm planning to add some dynamic contents and improve it. 
+But, I'm planning to add more backend stuff. Like, I want to have a background procesing that keep updates my portfolio page (using github API).
 
 <h1>Can I look into the page?</h1>
 https://wildanpurnomo.herokuapp.com/
