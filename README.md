@@ -6,7 +6,7 @@ Because I was learning Node js recently (by the time this was made) and I want t
 Sorry, because I'm stupid.
 But, I'm planning to add some dynamic contents and improve it. 
 
-<h1>How can I look the page?</h1>
+<h1>Can I look into the page?</h1>
 https://wildanpurnomo.herokuapp.com/
 
 <h1>Can I run locally on my laptop?</h1>
