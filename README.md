@@ -16,17 +16,5 @@ https://wildanpurnomo.herokuapp.com/
 <ol>4. Open terminal, enter command "npm install".</ol>
 <ol>4. Open browser, go to localhost:3000.</ol>
 
-
-<h1>This is dumb</h1>
-Yea I know, but at least I've tryharded to create one.
-If you have any suggestion/comment/blaming please contact my social media.
-
-Well since I forgot to put them on my webpage, here : <br>
-Facebook : https://www.facebook.com/itswildanstuff <br>
-Twitter : https://twitter.com/Wildan_Prnm <br>
-Instagram : https://www.instagram.com/itswildanstuff/
-
 Special thanks for the help from my friend R. Teguh that actually made me finished this. <br>
 I actually started making personal page since year ago, but I confused so much then desperately quit after 2 or 3 trials(I forgot).
-
-<h2>Thank you very much</h2>
